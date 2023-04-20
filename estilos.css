@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display:flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #dadce0;
+}
+
+header .header-nav{
+    width: 40%;
+    height: inherit;
+    display:flex;
+    justify-content: flex-end;
+}
+
+header .header-nav .nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-right: 10px;
+    list-style: none;
+}
+
+header .nav-list li{
+    margin-right: 15px;
+}
+
+header .nav-list a{
+    color: rgba(0,0,0,0.87);
+}
+
+
+header .nav-list .menu-icon{
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+header .nav-list .photo-icon{
+    background-image: url("https://lh3.googleusercontent.com/ogw/ADGmqu-rjCDM17nePCbS-FxWAXY2uUfXxiWBrtPWPpVM=s32-c-mo");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+main{
+    width: 530px ;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;    
+}
+
+main .main-logo{
+    width: 525px;
+    height: auto;
+    margin-bottom: 15px;
+    
+}
+
+main .main-logo img{
+    width: 272px;
+    height: 92px;
+}
+
+main .main-input{
+    width: 525px;
+    height: auto;
+    margin-bottom: 35px;
+    
+    
+}
+
+main .main-input .main-input-container{
+    width: 470px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    
+}
+
+main .main-input .main-input-container input{
+    width: 410px;
+    height: 35px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    
+}
+
+main .main-input .main-input-container:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+main .main-input .main-search-icon{
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    align-self: center;
+    margin-left: 10px;
+
+}
+
+main .main-input .main-micro-icon{
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+main .main-button{
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+}
+ main .main-button div{
+    margin:0 5px;
+ }
+
+ main .main-button button{
+     font-size: 14px;
+     width: 150px;
+     height: 35px;
+     background-color: #f8f9fa;
+     color: #202124;
+     padding: 5px;
+     border-style: none;
+     border-radius: 5px;
+
+ }
+
+ main .main-button button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+ }
+
+ footer{
+     width: 100%;
+     height: 50px;
+     position: absolute;
+     bottom: 0;
+     background-color:#f2f2f2;
+     border-top: #dadce0;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+ }
+
+ footer .footer-list-right{
+     display: flex;
+     justify-content: flex-end;
+     margin-right:20px ;
+     align-items: center;
+     list-style: none;
+ }
+
+ footer .footer-list-left{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    align-items: center;
+    list-style: none;
+}
+
+footer .footer-list-right li{
+    margin-right: 20px;
+}
+
+footer .footer-list-left li{
+    margin-left: 35px;
+}
+
+footer a{
+    font-size: 14px;
+    color: #70757a;
+}
